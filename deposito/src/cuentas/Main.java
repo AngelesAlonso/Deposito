@@ -12,7 +12,7 @@ public class Main {
         operativa_cuenta(cuenta1, 500, 695);
 
         saldoActual = cuenta1.estado();
-        System.out.println("El saldo actual es "+ saldoActual );
+        System.out.println("El saldo actual tras la transacción es " + saldoActual);
 }
 
  public static void operativa_cuenta(CCuenta cuenta1, double cantidadRetiro, double cantidadIngreso){
